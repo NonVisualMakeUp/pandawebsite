@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es5", // 编译目标
+      "module": "commonjs", // 模块系统
+      "strict": true, // 启用所有严格类型检查选项
+      "jsx": "react", // JSX 代码的处理方式
+      "esModuleInterop": true, // 允许默认导入非模块
+      "skipLibCheck": true, // 跳过库文件的类型检查
+      "forceConsistentCasingInFileNames": true // 强制文件名一致性
+    },
+    "include": ["src/**/*"], // 包含 src 目录下的所有文件
+    "exclude": ["node_modules", "**/*.spec.ts"] // 排除 node_modules 目录和测试文件
+  }
