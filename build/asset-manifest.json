@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NonVisualMakeUp/pandawebsite/static/css/main.d2289e74.css",
+    "main.js": "/NonVisualMakeUp/pandawebsite/static/js/main.d8fcad6c.js",
+    "index.html": "/NonVisualMakeUp/pandawebsite/index.html",
+    "main.d2289e74.css.map": "/NonVisualMakeUp/pandawebsite/static/css/main.d2289e74.css.map",
+    "main.d8fcad6c.js.map": "/NonVisualMakeUp/pandawebsite/static/js/main.d8fcad6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2289e74.css",
+    "static/js/main.d8fcad6c.js"
+  ]
+}

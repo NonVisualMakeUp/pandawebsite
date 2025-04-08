@@ -1,0 +1,16 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+/* 确保VlogDisplay始终在底部 */
+.video-container {
+  width: 100%;
+  max-width: 100%;
+  margin-top: auto;
+}

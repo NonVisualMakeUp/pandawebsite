@@ -1,0 +1,91 @@
+body {
+  background-color: #f0f8ff; /* 柔和的蓝色背景 */
+  color: #333; /* 深色文字 */
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+  color: #ff69b4; /* 深粉色标题 */
+}
+
+.upload-tool, .photo-display, .vlog-display {
+  background-color: #ffffff; /* 白色背景 */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 浅色阴影 */
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.download-link {
+  color: #1e90ff; /* 蓝色链接 */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.download-link:hover {
+  text-decoration: underline;
+}
+
+.qr-code {
+  width: 180px;
+  height: auto;
+  margin-left: 10px;
+  border: 2px solid #ff69b4;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.qr-code.enlarged {
+  transform: scale(2); /* 放大效果 */
+}
+
+.demo-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.demo-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.demo-display {
+  display: flex;
+  flex-direction: column;
+  min-height: 43vh;
+}
+
+.image-carousel {
+  position: relative; /* 使子元素可以绝对定位 */
+  display: inline-block; /* 使容器大小随内容变化 */
+  background: transparent;
+}
+
+.carousel-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* 保持图片完整比例 */
+  transition: opacity 0.5s ease;
+}
+
+/* 添加Banner标题的样式 */
+.banner-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 10px;
+  z-index: 2;
+}
